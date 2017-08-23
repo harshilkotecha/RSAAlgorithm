@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A88C29E91F4C2B2D00E60492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C29E81F4C2B2D00E60492 /* AppDelegate.swift */; };
+		A88C29EB1F4C2B2D00E60492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C29EA1F4C2B2D00E60492 /* ViewController.swift */; };
+		A88C29EE1F4C2B2D00E60492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88C29EC1F4C2B2D00E60492 /* Main.storyboard */; };
+		A88C29F01F4C2B2D00E60492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88C29EF1F4C2B2D00E60492 /* Assets.xcassets */; };
+		A88C29F31F4C2B2D00E60492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88C29F11F4C2B2D00E60492 /* LaunchScreen.storyboard */; };
+		A88C29FE1F4C2B2E00E60492 /* RSAAlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C29FD1F4C2B2E00E60492 /* RSAAlogTests.swift */; };
+		A88C2A091F4C2B2E00E60492 /* RSAAlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C2A081F4C2B2E00E60492 /* RSAAlogUITests.swift */; };
+		A88C2A171F4C2B5A00E60492 /* RSAUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C2A161F4C2B5A00E60492 /* RSAUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A88C29FA1F4C2B2D00E60492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88C29DD1F4C2B2D00E60492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88C29E41F4C2B2D00E60492;
+			remoteInfo = RSAAlog;
+		};
+		A88C2A051F4C2B2E00E60492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88C29DD1F4C2B2D00E60492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88C29E41F4C2B2D00E60492;
+			remoteInfo = RSAAlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A88C29E51F4C2B2D00E60492 /* RSAAlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAAlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88C29E81F4C2B2D00E60492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A88C29EA1F4C2B2D00E60492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A88C29ED1F4C2B2D00E60492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A88C29EF1F4C2B2D00E60492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A88C29F21F4C2B2D00E60492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A88C29F41F4C2B2D00E60492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88C29F91F4C2B2D00E60492 /* RSAAlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAAlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88C29FD1F4C2B2E00E60492 /* RSAAlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAAlogTests.swift; sourceTree = "<group>"; };
+		A88C29FF1F4C2B2E00E60492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88C2A041F4C2B2E00E60492 /* RSAAlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAAlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88C2A081F4C2B2E00E60492 /* RSAAlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAAlogUITests.swift; sourceTree = "<group>"; };
+		A88C2A0A1F4C2B2E00E60492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88C2A161F4C2B5A00E60492 /* RSAUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSAUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A88C29E21F4C2B2D00E60492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88C29F61F4C2B2D00E60492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88C2A011F4C2B2E00E60492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A88C29DC1F4C2B2D00E60492 = {
+			isa = PBXGroup;
+			children = (
+				A88C29E71F4C2B2D00E60492 /* RSAAlog */,
+				A88C29FC1F4C2B2D00E60492 /* RSAAlogTests */,
+				A88C2A071F4C2B2E00E60492 /* RSAAlogUITests */,
+				A88C29E61F4C2B2D00E60492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A88C29E61F4C2B2D00E60492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A88C29E51F4C2B2D00E60492 /* RSAAlog.app */,
+				A88C29F91F4C2B2D00E60492 /* RSAAlogTests.xctest */,
+				A88C2A041F4C2B2E00E60492 /* RSAAlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A88C29E71F4C2B2D00E60492 /* RSAAlog */ = {
+			isa = PBXGroup;
+			children = (
+				A88C29E81F4C2B2D00E60492 /* AppDelegate.swift */,
+				A88C29EA1F4C2B2D00E60492 /* ViewController.swift */,
+				A88C2A161F4C2B5A00E60492 /* RSAUtils.swift */,
+				A88C29EC1F4C2B2D00E60492 /* Main.storyboard */,
+				A88C29EF1F4C2B2D00E60492 /* Assets.xcassets */,
+				A88C29F11F4C2B2D00E60492 /* LaunchScreen.storyboard */,
+				A88C29F41F4C2B2D00E60492 /* Info.plist */,
+			);
+			path = RSAAlog;
+			sourceTree = "<group>";
+		};
+		A88C29FC1F4C2B2D00E60492 /* RSAAlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				A88C29FD1F4C2B2E00E60492 /* RSAAlogTests.swift */,
+				A88C29FF1F4C2B2E00E60492 /* Info.plist */,
+			);
+			path = RSAAlogTests;
+			sourceTree = "<group>";
+		};
+		A88C2A071F4C2B2E00E60492 /* RSAAlogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A88C2A081F4C2B2E00E60492 /* RSAAlogUITests.swift */,
+				A88C2A0A1F4C2B2E00E60492 /* Info.plist */,
+			);
+			path = RSAAlogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A88C29E41F4C2B2D00E60492 /* RSAAlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88C2A0D1F4C2B2E00E60492 /* Build configuration list for PBXNativeTarget "RSAAlog" */;
+			buildPhases = (
+				A88C29E11F4C2B2D00E60492 /* Sources */,
+				A88C29E21F4C2B2D00E60492 /* Frameworks */,
+				A88C29E31F4C2B2D00E60492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSAAlog;
+			productName = RSAAlog;
+			productReference = A88C29E51F4C2B2D00E60492 /* RSAAlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A88C29F81F4C2B2D00E60492 /* RSAAlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88C2A101F4C2B2E00E60492 /* Build configuration list for PBXNativeTarget "RSAAlogTests" */;
+			buildPhases = (
+				A88C29F51F4C2B2D00E60492 /* Sources */,
+				A88C29F61F4C2B2D00E60492 /* Frameworks */,
+				A88C29F71F4C2B2D00E60492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A88C29FB1F4C2B2D00E60492 /* PBXTargetDependency */,
+			);
+			name = RSAAlogTests;
+			productName = RSAAlogTests;
+			productReference = A88C29F91F4C2B2D00E60492 /* RSAAlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A88C2A031F4C2B2E00E60492 /* RSAAlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88C2A131F4C2B2E00E60492 /* Build configuration list for PBXNativeTarget "RSAAlogUITests" */;
+			buildPhases = (
+				A88C2A001F4C2B2E00E60492 /* Sources */,
+				A88C2A011F4C2B2E00E60492 /* Frameworks */,
+				A88C2A021F4C2B2E00E60492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A88C2A061F4C2B2E00E60492 /* PBXTargetDependency */,
+			);
+			name = RSAAlogUITests;
+			productName = RSAAlogUITests;
+			productReference = A88C2A041F4C2B2E00E60492 /* RSAAlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A88C29DD1F4C2B2D00E60492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = elluminatimacmini3;
+				TargetAttributes = {
+					A88C29E41F4C2B2D00E60492 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A88C29F81F4C2B2D00E60492 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HU244ZAB8E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A88C29E41F4C2B2D00E60492;
+					};
+					A88C2A031F4C2B2E00E60492 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HU244ZAB8E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A88C29E41F4C2B2D00E60492;
+					};
+				};
+			};
+			buildConfigurationList = A88C29E01F4C2B2D00E60492 /* Build configuration list for PBXProject "RSAAlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A88C29DC1F4C2B2D00E60492;
+			productRefGroup = A88C29E61F4C2B2D00E60492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A88C29E41F4C2B2D00E60492 /* RSAAlog */,
+				A88C29F81F4C2B2D00E60492 /* RSAAlogTests */,
+				A88C2A031F4C2B2E00E60492 /* RSAAlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A88C29E31F4C2B2D00E60492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88C29F31F4C2B2D00E60492 /* LaunchScreen.storyboard in Resources */,
+				A88C29F01F4C2B2D00E60492 /* Assets.xcassets in Resources */,
+				A88C29EE1F4C2B2D00E60492 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88C29F71F4C2B2D00E60492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88C2A021F4C2B2E00E60492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A88C29E11F4C2B2D00E60492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88C29EB1F4C2B2D00E60492 /* ViewController.swift in Sources */,
+				A88C2A171F4C2B5A00E60492 /* RSAUtils.swift in Sources */,
+				A88C29E91F4C2B2D00E60492 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88C29F51F4C2B2D00E60492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88C29FE1F4C2B2E00E60492 /* RSAAlogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88C2A001F4C2B2E00E60492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88C2A091F4C2B2E00E60492 /* RSAAlogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A88C29FB1F4C2B2D00E60492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A88C29E41F4C2B2D00E60492 /* RSAAlog */;
+			targetProxy = A88C29FA1F4C2B2D00E60492 /* PBXContainerItemProxy */;
+		};
+		A88C2A061F4C2B2E00E60492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A88C29E41F4C2B2D00E60492 /* RSAAlog */;
+			targetProxy = A88C2A051F4C2B2E00E60492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A88C29EC1F4C2B2D00E60492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A88C29ED1F4C2B2D00E60492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A88C29F11F4C2B2D00E60492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A88C29F21F4C2B2D00E60492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A88C2A0B1F4C2B2E00E60492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A88C2A0C1F4C2B2E00E60492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A88C2A0E1F4C2B2E00E60492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RSAAlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarshilKotecha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A88C2A0F1F4C2B2E00E60492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RSAAlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarshilKotecha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A88C2A111F4C2B2E00E60492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HU244ZAB8E;
+				INFOPLIST_FILE = RSAAlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eber.user.RSAAlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSAAlog.app/RSAAlog";
+			};
+			name = Debug;
+		};
+		A88C2A121F4C2B2E00E60492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HU244ZAB8E;
+				INFOPLIST_FILE = RSAAlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eber.user.RSAAlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSAAlog.app/RSAAlog";
+			};
+			name = Release;
+		};
+		A88C2A141F4C2B2E00E60492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HU244ZAB8E;
+				INFOPLIST_FILE = RSAAlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eber.user.RSAAlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RSAAlog;
+			};
+			name = Debug;
+		};
+		A88C2A151F4C2B2E00E60492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HU244ZAB8E;
+				INFOPLIST_FILE = RSAAlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eber.user.RSAAlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RSAAlog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A88C29E01F4C2B2D00E60492 /* Build configuration list for PBXProject "RSAAlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88C2A0B1F4C2B2E00E60492 /* Debug */,
+				A88C2A0C1F4C2B2E00E60492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88C2A0D1F4C2B2E00E60492 /* Build configuration list for PBXNativeTarget "RSAAlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88C2A0E1F4C2B2E00E60492 /* Debug */,
+				A88C2A0F1F4C2B2E00E60492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88C2A101F4C2B2E00E60492 /* Build configuration list for PBXNativeTarget "RSAAlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88C2A111F4C2B2E00E60492 /* Debug */,
+				A88C2A121F4C2B2E00E60492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88C2A131F4C2B2E00E60492 /* Build configuration list for PBXNativeTarget "RSAAlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88C2A141F4C2B2E00E60492 /* Debug */,
+				A88C2A151F4C2B2E00E60492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A88C29DD1F4C2B2D00E60492 /* Project object */;
+}
