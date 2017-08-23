@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var txtCipherText: UITextView!
     
-    @IBOutlet var txtDescripPlainText: UITextView!
+    @IBOutlet var txtDecryptionPlainText: UITextView!
     
     let PUBLIC_KEY = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKkEvmh69XsykSgEGGE354aDEJwuQAAfG9obSp88PrCC+O3kxYGqSbDae3+ufCMSJRBGqzifOyHljmZf7OdTL1kCAwEAAQ=="
     let PRIVATE_KEY = "MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAqQS+aHr1ezKRKAQYYTfnhoMQnC5AAB8b2htKnzw+sIL47eTFgapJsNp7f658IxIlEEarOJ87IeWOZl/s51MvWQIDAQABAkBW8fLFKmN3YZbcP+cOs8RtJKT5wqz3owkf1KQ5b7NL9uyVvgRF/NMewm09qS3UBSkMmPOC+nwD83UEhEtj2ECBAiEA6PxlisxxG+aMNKLdIauovkqCfcH4Ppfxg502pPq/VJECIQC5tseG6pULWWit76tWKM+3Q/xSu6Os/lnB50o46SPySQIgdAEPsf8/JiwxjRe2UMh+uViyBlmo98mBqA2EIrryvvECIQCZ/kTuy7+w/H9/kzfIpuiud3JYC/2JqhM1ZRs3m6LR+QIge4zNJ81ddLqlna9VJRvNbz5WOw76JxY1+TLT8j88HzA="
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         txtPublicKey.text = PUBLIC_KEY
         txtPrivateKey.text = PRIVATE_KEY
         
-        txtCipherText.text = "SksJmn1FJDU1wEI763TYix0bq0QeTtADFl3shnqy0sEp95fz9Ic9Dnm4f5BZLe8TbnDeVbIQeucACgg2wcFpJg=="
+        
     }
 
 
@@ -53,11 +53,11 @@ class ViewController: UIViewController {
         
        
     }
-    @IBAction func onClickDescription(_ sender: Any) {
+    @IBAction func onClickDecryption(_ sender: Any) {
         
         let orgData = try! RSAUtils.decryptWithRSAPrivateKey(encryptedData:  Data(base64Encoded: txtCipherText.text)!, privkeyBase64: txtPrivateKey.text)
         
-        txtDescripPlainText.text = String(data: orgData!, encoding: String.Encoding.utf8) as String!
+        txtDecryptionPlainText.text = String(data: orgData!, encoding: String.Encoding.utf8) as String!
     }
     
 }

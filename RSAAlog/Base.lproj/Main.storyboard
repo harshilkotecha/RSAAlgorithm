@@ -92,9 +92,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Description "/>
+                                <state key="normal" title="Decryption"/>
                                 <connections>
-                                    <action selector="onClickDescription:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wje-Qw-GU7"/>
+                                    <action selector="onClickDecryption:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eAM-0S-ccP"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M3W-gH-khh">
@@ -116,7 +116,7 @@
                     </view>
                     <connections>
                         <outlet property="txtCipherText" destination="gx6-7c-kmb" id="7Pj-Ef-ziB"/>
-                        <outlet property="txtDescripPlainText" destination="M3W-gH-khh" id="mxf-Xk-Ri1"/>
+                        <outlet property="txtDecryptionPlainText" destination="M3W-gH-khh" id="HXg-Ic-hiT"/>
                         <outlet property="txtPlainText" destination="av1-F0-fMq" id="CYM-xG-c5J"/>
                         <outlet property="txtPrivateKey" destination="VXZ-Zz-2KF" id="phS-N6-RVW"/>
                         <outlet property="txtPublicKey" destination="szE-WT-H8Y" id="koD-42-hR0"/>
